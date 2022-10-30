@@ -1,4 +1,4 @@
-var getFont=document.createElement("link");getFont.rel="stylesheet",getFont.type="text/css",getFont.href="https://fonts.googleapis.com/css2?family="+fontGoogle+":wght@400;500;700&display=swap",document.querySelector("body").appendChild(getFont);
+var getFontawesome=document.createElement("link");getFontawesome.rel="stylesheet",getFontawesome.type="text/css",getFontawesome.href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css",document.querySelector("body").appendChild(getFontawesome);var getFont=document.createElement("link");getFont.rel="stylesheet",getFont.type="text/css",getFont.href="https://fonts.googleapis.com/css2?family="+fontGoogle+":wght@400;500;700&display=swap",document.querySelector("body").appendChild(getFont);
 document.documentElement.style.setProperty('--body-font', fontGoogle);
 document.querySelector("body").classList.add("block");
 function MM(){for(let MM of document.querySelectorAll('div'))if(MM.getAttribute('id')=='post-body')return MM}if(MM()){
